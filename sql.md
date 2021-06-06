@@ -99,7 +99,6 @@ ALTER TABLE table_name {ADD|DROP|MODIFY} column_name {data_ype};
 ALTER TABLE table_name RENAME TO new_table_name;
 ~~~
 
-### SQL INSERT INTO Statement
 ### SQL CREATE INDEX Statement
 
 ~~~sql
@@ -121,10 +120,6 @@ DESC table_name;
 ~~~
 
 
-~~~sql
-INSERT INTO table_name( column1, column2....columnN)
-VALUES ( value1, value2....valueN);
-~~~
 ### SQL DROP DATABASE Statement
 
 ~~~sql
